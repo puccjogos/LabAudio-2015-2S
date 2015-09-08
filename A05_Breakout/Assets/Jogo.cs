@@ -11,7 +11,9 @@ public class Jogo : MonoBehaviour
 
 	void Awake ()
 	{
+		// semi-singleton para permitir envio de mensagens
 		i = this;
+		// instanciacao dos blocos
 		blocos = new List<Transform> ();
 		for (var c = 1; c < colunas; c++) {
 			for (var l = 1; l < linhas; l++) {
@@ -24,14 +26,17 @@ public class Jogo : MonoBehaviour
 		}
 	}
 	
+	// disparada pela Bola
 	void ChecarVitoria ()
 	{
+		// retira todos os blocos destruidos da lista
 		blocos.RemoveAll (b => b == null);
 		if (blocos.Count == 0) {
 			print ("Ganhou");
 		}
 	}
 	
+	// disparada pela Bola
 	void GameOver ()
 	{
 		print ("Gameover");

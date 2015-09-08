@@ -9,6 +9,7 @@ public class MoverJogador : MonoBehaviour
 	private Rigidbody2D _rb;
 	public Transform visual;
 	public float pulo;
+	public bool noAr = false;
 	
 	void Start ()
 	{
@@ -23,6 +24,13 @@ public class MoverJogador : MonoBehaviour
 		}
 		if (Input.GetButtonDown ("Jump") && Mathf.Abs (_rb.velocity.y) < 0.1f) {
 			_rb.velocity += new Vector2 (0, pulo);
+			SendMessage ("SomPulo");
+			noAr = true;
+		}
+		
+		if (_rb.velocity.y == 0 && noAr) {
+			noAr = false;
+			SendMessage ("SomQueda");
 		}
 	}
 	
