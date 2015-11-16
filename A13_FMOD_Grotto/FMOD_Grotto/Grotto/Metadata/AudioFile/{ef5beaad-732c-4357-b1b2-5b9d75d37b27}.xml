@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{ef5beaad-732c-4357-b1b2-5b9d75d37b27}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>20.013015873015874</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/looperman-l-1250729-0086589-julietstarling-the-purple-stained-sword-dark-jap-guitar {0c439a3a-c6e6-4ad9-96b6-388ba223f8ca}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1a837e27-62ea-4197-99c0-b6bc95afaa73}</destination>
+        </relationship>
+    </object>
+</objects>

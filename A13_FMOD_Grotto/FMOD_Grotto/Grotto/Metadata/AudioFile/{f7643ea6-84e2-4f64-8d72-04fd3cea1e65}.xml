@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{f7643ea6-84e2-4f64-8d72-04fd3cea1e65}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/looperman-l-0243518-0022201-sterixx-boom-kalor-synth-01 {f07a545c-d3f7-40ff-a356-0eb0b447cf93}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1a837e27-62ea-4197-99c0-b6bc95afaa73}</destination>
+        </relationship>
+    </object>
+</objects>

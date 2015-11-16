@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{b1d90cec-ed5c-4540-bc7e-f8a59be1faa2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.006507936507937</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/looperman-l-0675471-0071740-skella-hidden-danger-piazollie-synth-96-bpm {a950ef29-d6ec-45dd-9236-c3a73405fe53}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1a837e27-62ea-4197-99c0-b6bc95afaa73}</destination>
+        </relationship>
+    </object>
+</objects>

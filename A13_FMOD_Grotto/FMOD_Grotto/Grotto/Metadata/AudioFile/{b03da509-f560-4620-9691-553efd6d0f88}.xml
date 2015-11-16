@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{b03da509-f560-4620-9691-553efd6d0f88}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>20</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/looperman-l-0878670-0072539-ckdepaul13-smooth-rap-drum-loop {40eaa74a-5726-4793-b702-1d4c7b56bf6d}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1a837e27-62ea-4197-99c0-b6bc95afaa73}</destination>
+        </relationship>
+    </object>
+</objects>

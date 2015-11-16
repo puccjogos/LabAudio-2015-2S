@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{95da8b15-71ae-4152-b03f-e85851e9c670}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.11501133786848072</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Pegada {0e38b7cb-f0c6-4590-a5b2-f6c1f6bb91ae}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{61857291-6bc7-41b5-ae8e-6654ab69de75}</destination>
+        </relationship>
+    </object>
+</objects>

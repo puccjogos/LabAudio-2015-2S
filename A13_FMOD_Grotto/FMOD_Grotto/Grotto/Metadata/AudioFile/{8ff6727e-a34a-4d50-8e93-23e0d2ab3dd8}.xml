@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{8ff6727e-a34a-4d50-8e93-23e0d2ab3dd8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/looperman-l-0747210-0081327-ferryterry-96-bpm-jazz-piano {eebdddca-6cfc-4d4a-9dae-8fff8c34e4f4}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{c2b750e2-ad6e-490d-84c5-0be36da05cad}</destination>
+        </relationship>
+    </object>
+</objects>

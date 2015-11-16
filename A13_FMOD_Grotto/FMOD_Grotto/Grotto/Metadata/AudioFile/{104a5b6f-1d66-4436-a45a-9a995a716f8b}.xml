@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{104a5b6f-1d66-4436-a45a-9a995a716f8b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.26308390022675737</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Pulo {525a3db9-6f7e-40f1-828e-159515ca9b1b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{61857291-6bc7-41b5-ae8e-6654ab69de75}</destination>
+        </relationship>
+    </object>
+</objects>
